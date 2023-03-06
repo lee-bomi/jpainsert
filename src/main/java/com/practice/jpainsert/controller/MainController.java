@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class MainController {
 
+
 	private final MemberService memberService;
 	private final TeamService teamService;
 	private final MemberRepository memberRepository;
@@ -30,6 +31,7 @@ public class MainController {
 
 	@GetMapping("/bomi")
 	public ResponseEntity<?> test() {
+		System.out.println(">>>>>>>>>> 이곳은 main브랜치 <<<<<<<<<<<<<<<<<");
 		System.out.println("test controller에 진입 > " + name);
 		return ResponseEntity.ok().build();
 	}
