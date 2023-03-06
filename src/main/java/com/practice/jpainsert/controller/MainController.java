@@ -31,7 +31,7 @@ public class MainController {
 
 	@GetMapping("/bomi")
 	public ResponseEntity<?> test() {
-		System.out.println(">>>>>>>>>> 이곳은 main브랜치 <<<<<<<<<<<<<<<<<");
+		System.out.println(">>>>>>>>>> 이곳은 main브랜치2 <<<<<<<<<<<<<<<<<");
 		System.out.println("test controller에 진입 > " + name);
 		return ResponseEntity.ok().build();
 	}
