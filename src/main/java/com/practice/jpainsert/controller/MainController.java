@@ -31,7 +31,7 @@ public class MainController {
 
 	@GetMapping("/bomi")
 	public ResponseEntity<?> test() {
-		System.out.println(">>>>>>>>>> 이곳은 main브랜치3 - gradle2.yml기준으로 되나 테스트해본다 <<<<<<<<<<<<<<<<<");
+		System.out.println(">>>>>>>>>> 이곳은 main브랜치4 - gradle4.yml기준으로 되나 테스트해본다 <<<<<<<<<<<<<<<<<");
 		System.out.println("test controller에 진입 > " + name);
 		return ResponseEntity.ok().build();
 	}
